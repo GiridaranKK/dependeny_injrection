@@ -1,5 +1,8 @@
 package com.springboot.dependencyInjection.services;
 
+import org.springframework.stereotype.Service;
+
+@Service
 public class GreetingServiceImpl implements GrettingService {
 
 	@Override
